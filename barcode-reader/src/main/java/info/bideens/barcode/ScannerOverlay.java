@@ -1,4 +1,4 @@
-package info.androidhive.barcode;
+package info.bideens.barcode;
 
 import android.content.Context;
 import android.content.res.TypedArray;

@@ -1,5 +1,8 @@
 Barcode Reader - Google Mobile Vision
 ===================
+
+Code of Ravi8x - https://github.com/ravi8x/Barcode-Reader - Fixed some issues on that version
+
 Android Barcode Reader library using **Google Mobile Vision.** This library is built on top of google mobile vision sample adding improvements and fixing few bugs.
 
 [ ![Download](https://api.bintray.com/packages/androidhive-info/maven/barcode-reader/images/download.svg) ](https://bintray.com/androidhive-info/maven/barcode-reader/_latestVersion)
@@ -16,7 +19,7 @@ dependencies {
     implementation 'com.google.android.gms:play-services-vision:11.0.2'
 
     // barcode reader
-    implementation 'info.androidhive:barcode-reader:1.1.5'
+    implementation 'info.bideens:barcode-reader:1.1.5'
 }
 ```
 
@@ -24,7 +27,7 @@ dependencies {
 ```xml
 <fragment
         android:id="@+id/barcode_fragment"
-        android:name="info.androidhive.barcode.BarcodeReader"
+        android:name="info.bideens.barcode.BarcodeReader"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:auto_focus="true"
@@ -92,13 +95,13 @@ To use it, add the <code>info.androidhive.barcode.ScannerOverlay</code> on top o
 
     <fragment
         android:id="@+id/barcode_fragment"
-        android:name="info.androidhive.barcode.BarcodeReader"
+        android:name="info.bideens.barcode.BarcodeReader"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:auto_focus="true"
         app:use_flash="false" />
 
-    <info.androidhive.barcode.ScannerOverlay
+    <info.bideens.barcode.ScannerOverlay
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#44000000"

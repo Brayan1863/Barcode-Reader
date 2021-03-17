@@ -1,4 +1,4 @@
-package info.androidhive.barcode;
+package info.bideens.barcode;
 
 import org.junit.Test;
 

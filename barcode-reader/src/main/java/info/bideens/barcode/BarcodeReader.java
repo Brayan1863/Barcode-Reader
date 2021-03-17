@@ -1,8 +1,7 @@
-package info.androidhive.barcode;
+package info.bideens.barcode;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
@@ -44,9 +43,9 @@ import com.google.android.gms.vision.barcode.BarcodeDetector;
 import java.io.IOException;
 import java.util.List;
 
-import info.androidhive.barcode.camera.CameraSource;
-import info.androidhive.barcode.camera.CameraSourcePreview;
-import info.androidhive.barcode.camera.GraphicOverlay;
+import info.bideens.barcode.camera.CameraSource;
+import info.bideens.barcode.camera.CameraSourcePreview;
+import info.bideens.barcode.camera.GraphicOverlay;
 
 public class BarcodeReader extends Fragment implements View.OnTouchListener, BarcodeGraphicTracker.BarcodeGraphicTrackerListener {
     private static final String TAG = BarcodeReader.class.getSimpleName();

@@ -1,4 +1,4 @@
-package info.androidhive.barcodereader;
+package info.bideens.barcodereader;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -10,7 +10,7 @@ import com.google.android.gms.vision.barcode.Barcode;
 
 import java.util.List;
 
-import info.androidhive.barcode.BarcodeReader;
+import info.bideens.barcode.BarcodeReader;
 
 public class MainActivity extends AppCompatActivity implements BarcodeReader.BarcodeReaderListener {
     private static final String TAG = MainActivity.class.getSimpleName();

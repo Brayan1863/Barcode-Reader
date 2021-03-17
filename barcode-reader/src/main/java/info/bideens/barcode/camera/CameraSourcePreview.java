@@ -13,13 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package info.androidhive.barcode.camera;
+package info.bideens.barcode.camera;
 
 import android.Manifest;
 import android.content.Context;
 import android.content.res.Configuration;
 import android.support.annotation.RequiresPermission;
-import android.support.v4.content.ContextCompat;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.SurfaceHolder;

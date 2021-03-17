@@ -1,4 +1,4 @@
-package info.androidhive.barcodereader;
+package info.bideens.barcodereader;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -13,7 +13,7 @@ import com.google.android.gms.vision.barcode.Barcode;
 
 import java.util.List;
 
-import info.androidhive.barcode.BarcodeReader;
+import info.bideens.barcode.BarcodeReader;
 
 public class BarcodeFragment extends Fragment implements BarcodeReader.BarcodeReaderListener {
     private static final String TAG = BarcodeFragment.class.getSimpleName();

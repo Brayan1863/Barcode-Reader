@@ -1,4 +1,4 @@
-package info.androidhive.barcode;
+package info.bideens.barcode;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("info.androidhive.barcode.test", appContext.getPackageName());
+        assertEquals("info.bideens.barcode.test", appContext.getPackageName());
     }
 }

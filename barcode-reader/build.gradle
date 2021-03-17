@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.jfrog.artifactory'
 apply plugin: 'maven-publish'
 
-def packageName = 'info.androidhive'
+def packageName = 'info.bideens'
 def libraryVersion = '1.1.5'
 
 tasks.withType(JavaCompile) {
@@ -64,7 +64,7 @@ artifactory {
     contextUrl = 'http://localhost:8081/artifactory'
     publish {
         repository {
-            repoKey = 'androidhive-maven'
+            repoKey = 'bideens-maven'
             username = artifactory_username
             password = artifactory_password
         }
